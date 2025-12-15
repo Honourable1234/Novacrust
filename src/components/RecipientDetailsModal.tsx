@@ -21,6 +21,8 @@ export default function RecipientDetailsModal({
   const [bank, setBank] = useState('');
   const [accountNumber, setAccountNumber] = useState('');
   const [accountName, setAccountName] = useState('ODUTUGA GBEKE');
+  console.log(setAccountName);
+  
 
   if (!isOpen) return null;
 
